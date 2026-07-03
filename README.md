@@ -1,6 +1,6 @@
 # My Personal Website
  
-A simple personal website built with plain HTML and CSS. No frameworks, no build tools — just open it in a browser.
+A simple personal website built with plain HTML and CSS. No frameworks, no build tools.
  
 ## What's on it
  
