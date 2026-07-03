@@ -161,11 +161,34 @@ section p:last-child {
     font-size: 1.05rem;
     font-weight: 600;
     margin-bottom: 3px;
+    color: var(--ink);
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding: 6px 12px;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--ink);
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.github-link:hover {
+    background: var(--accent-soft);
+    border-color: rgba(91, 157, 255, 0.4);
+    color: var(--accent);
 }
 
 .games-list {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 24px;
     display: flex;
     flex-direction: column;
     gap: 12px;
